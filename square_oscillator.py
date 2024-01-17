@@ -6,7 +6,7 @@ from sine_oscillator import SineOscillator
 class SquareOscillator(SineOscillator):
     def __init__(
         self,
-        freq: int = 440,
+        freq: float = 440.0,
         phase: int = 0,
         amp: float = 1.0,
         sample_rate: int = 44100,
