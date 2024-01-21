@@ -4,11 +4,11 @@ import itertools
 class ADSREnvelope:
     def __init__(
         self,
-        attack_duration=0.05,
-        decay_duration=0.2,
-        sustain_level=0.7,
-        release_duration=0.3,
-        sample_rate=44100,
+        attack_duration: float = 0.05,
+        decay_duration: float = 0.2,
+        sustain_level: float = 0.7,
+        release_duration: float = 0.3,
+        sample_rate: int = 44100,
     ):
         self.attack_duration = attack_duration
         self.decay_duration = decay_duration
