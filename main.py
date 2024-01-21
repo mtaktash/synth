@@ -1,5 +1,3 @@
-from typing import Optional
-
 import matplotlib.pyplot as plt
 import numpy as np
 from scipy.io import wavfile
@@ -13,7 +11,7 @@ from synth.oscillator.wave_adder import WaveAdder
 
 def wave_to_file(
     wav: np.ndarray,
-    wav2: Optional[np.ndarray] = None,
+    wav2: np.ndarray | None = None,
     fname: str = "temp.wav",
     amp: float = 0.1,
     sample_rate: int = 44100,
