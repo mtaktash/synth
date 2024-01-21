@@ -3,7 +3,7 @@ import random
 import numpy as np
 import pygame as pg
 
-from sine_oscillator import SineOscillator
+from synth.oscillator.sine import SineOscillator
 
 
 def generate_note(freq: float):

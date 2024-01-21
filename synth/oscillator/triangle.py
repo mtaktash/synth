@@ -1,6 +1,6 @@
 import math
 
-from sawtooth_oscillator import SawtoothOscillator
+from synth.oscillator.sawtooth import SawtoothOscillator
 
 
 class TriangleOscillator(SawtoothOscillator):

@@ -4,11 +4,11 @@ import matplotlib.pyplot as plt
 import numpy as np
 from scipy.io import wavfile
 
-from sawtooth_oscillator import SawtoothOscillator
-from sine_oscillator import SineOscillator
-from square_oscillator import SquareOscillator
-from triangle_oscillator import TriangleOscillator
-from wave_adder import WaveAdder
+from synth.oscillator.sawtooth import SawtoothOscillator
+from synth.oscillator.sine import SineOscillator
+from synth.oscillator.square import SquareOscillator
+from synth.oscillator.triangle import TriangleOscillator
+from synth.oscillator.wave_adder import WaveAdder
 
 
 def wave_to_file(

@@ -1,4 +1,4 @@
-from oscillator import Oscillator
+from synth.oscillator.base import Oscillator
 
 
 class WaveAdder:
